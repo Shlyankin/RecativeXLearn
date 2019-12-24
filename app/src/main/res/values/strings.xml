@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ReactiveXLearn</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="server">Server</string>
+    <string name="toast">Toast</string>
+    <string name="result">Result</string>
+    <string name="null_string">null</string>
+    <string name="temp">Tempeture</string>
+    <string name="pressure">Pressure</string>
+    <string name="five">Five</string>
+    <string name="city">Current city:</string>
+    <string name="updateWeather">Update Weather</string>
+</resources>

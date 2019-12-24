@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WeatherActivity">
+
+    <ProgressBar
+        android:id="@+id/weatherProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="100dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/weatherCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/city"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/textSizeLarge" />
+
+            <TextView
+                android:id="@+id/tempTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/temp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/textSizeLarge" />
+
+            <TextView
+                android:id="@+id/pressureTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/pressure"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/textSizeLarge" />
+
+            <Button
+                android:id="@+id/updateWeatherBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="80dp"
+                android:background="@color/lightColorAccent"
+                android:fontFamily="@font/gothic_font"
+
+                android:text="@string/updateWeather"
+                android:textSize="@dimen/btnTextSizeMedium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/third" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
