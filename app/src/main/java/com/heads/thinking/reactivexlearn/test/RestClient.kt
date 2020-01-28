@@ -1,4 +1,4 @@
-package com.heads.thinking.recativexlearn.test
+package com.heads.thinking.reactivexlearn.test
 
 import android.content.Context
 import android.os.SystemClock

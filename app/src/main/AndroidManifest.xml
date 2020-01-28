@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.heads.thinking.recativexlearn">
+    package="com.heads.thinking.reactivexlearn">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
@@ -10,17 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.WeatherActivity"></activity>
-        <activity android:name=".activities.MainActivity">
+        <activity android:name="com.heads.thinking.reactivexlearn.activities.WeatherActivity"></activity>
+        <activity android:name="com.heads.thinking.reactivexlearn.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.ColorsActivity" />
-        <activity android:name=".activities.BooksActivity" />
-        <activity android:name=".activities.RxJavaSimpleActivity" />
+        <activity android:name="com.heads.thinking.reactivexlearn.activities.ColorsActivity" />
+        <activity android:name="com.heads.thinking.reactivexlearn.activities.BooksActivity" />
+        <activity android:name="com.heads.thinking.reactivexlearn.activities.RxJavaSimpleActivity" />
     </application>
 
 </manifest>

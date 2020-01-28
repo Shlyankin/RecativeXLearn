@@ -1,4 +1,4 @@
-package com.heads.thinking.recativexlearn.adapters
+package com.heads.thinking.reactivexlearn.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.heads.thinking.recativexlearn.R
+import com.heads.thinking.reactivexlearn.R
 
 class SimpleStringAdapter(private val context : Context) : RecyclerView.Adapter<SimpleStringAdapter.ViewHolder>() {
 

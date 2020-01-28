@@ -1,10 +1,10 @@
-package com.heads.thinking.recativexlearn.activities
+package com.heads.thinking.reactivexlearn.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.heads.thinking.recativexlearn.R
+import com.heads.thinking.reactivexlearn.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {

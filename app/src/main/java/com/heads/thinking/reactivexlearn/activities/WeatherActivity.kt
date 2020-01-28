@@ -1,18 +1,13 @@
-package com.heads.thinking.recativexlearn.activities
+package com.heads.thinking.reactivexlearn.activities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.arellomobile.mvp.MvpAppCompatActivity
 import com.arellomobile.mvp.presenter.InjectPresenter
-import com.heads.thinking.recativexlearn.R
-import com.heads.thinking.recativexlearn.api.Api
-import com.heads.thinking.recativexlearn.api.WeatherApi
-import com.heads.thinking.recativexlearn.models.CurrentWeather
-import com.heads.thinking.recativexlearn.mvp.WeatherPresenter
-import com.heads.thinking.recativexlearn.mvp.WeatherView
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
+import com.heads.thinking.reactivexlearn.R
+import com.heads.thinking.reactivexlearn.models.CurrentWeather
+import com.heads.thinking.reactivexlearn.mvp.WeatherPresenter
+import com.heads.thinking.reactivexlearn.mvp.WeatherView
 import kotlinx.android.synthetic.main.activity_weather.*
 
 class WeatherActivity : MvpAppCompatActivity(), WeatherView {

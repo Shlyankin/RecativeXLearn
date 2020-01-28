@@ -1,10 +1,10 @@
-package com.heads.thinking.recativexlearn.activities
+package com.heads.thinking.reactivexlearn.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.heads.thinking.recativexlearn.R
-import com.heads.thinking.recativexlearn.adapters.SimpleStringAdapter
+import com.heads.thinking.reactivexlearn.R
+import com.heads.thinking.reactivexlearn.adapters.SimpleStringAdapter
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.activity_colors.*

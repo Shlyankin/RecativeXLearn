@@ -1,4 +1,4 @@
-package com.heads.thinking.recativexlearn.models
+package com.heads.thinking.reactivexlearn.models
 
 import com.google.gson.annotations.SerializedName
 

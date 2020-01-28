@@ -1,7 +1,7 @@
-package com.heads.thinking.recativexlearn.mvp
+package com.heads.thinking.reactivexlearn.mvp
 
 import com.arellomobile.mvp.MvpView
-import com.heads.thinking.recativexlearn.models.CurrentWeather
+import com.heads.thinking.reactivexlearn.models.CurrentWeather
 
 interface WeatherView : MvpView{
 

@@ -1,9 +1,9 @@
-package com.heads.thinking.recativexlearn.mvp
+package com.heads.thinking.reactivexlearn.mvp
 
 import com.arellomobile.mvp.InjectViewState
 import com.arellomobile.mvp.MvpPresenter
-import com.heads.thinking.recativexlearn.api.WeatherApi
-import com.heads.thinking.recativexlearn.models.CurrentWeather
+import com.heads.thinking.reactivexlearn.api.WeatherApi
+import com.heads.thinking.reactivexlearn.models.CurrentWeather
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers

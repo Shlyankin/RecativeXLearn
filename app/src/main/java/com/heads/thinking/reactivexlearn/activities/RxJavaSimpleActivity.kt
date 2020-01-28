@@ -1,11 +1,11 @@
-package com.heads.thinking.recativexlearn.activities
+package com.heads.thinking.reactivexlearn.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import io.reactivex.disposables.CompositeDisposable
 import android.os.SystemClock
 import android.widget.Toast
-import com.heads.thinking.recativexlearn.R
+import com.heads.thinking.reactivexlearn.R
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

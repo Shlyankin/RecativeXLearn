@@ -1,4 +1,4 @@
-package com.heads.thinking.recativexlearn
+package com.heads.thinking.reactivexlearn
 
 import org.junit.Test
 

@@ -1,6 +1,6 @@
-package com.heads.thinking.recativexlearn.api
+package com.heads.thinking.reactivexlearn.api
 
-import com.heads.thinking.recativexlearn.models.CurrentWeather
+import com.heads.thinking.reactivexlearn.models.CurrentWeather
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

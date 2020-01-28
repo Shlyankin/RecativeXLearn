@@ -1,4 +1,4 @@
-package com.heads.thinking.recativexlearn.api
+package com.heads.thinking.reactivexlearn.api
 
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
